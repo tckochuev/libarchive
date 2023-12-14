@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(arch)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED 17)
+configure_file(config.h.in config.h)
+add_subdirectory(src)
